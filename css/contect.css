@@ -1,0 +1,23 @@
+.contect-content {
+    height: 395px;
+    height: 100vh;
+    margin-top: 12px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contect-content::after {
+    content: "";
+    background-image: url(../img/as.jpg);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.contect-form{
+   
+}
